@@ -37,9 +37,11 @@ The application is deployed on Hugging Face Spaces for public use. You can acces
 * Select Python - Streamlit
 * Push code to the Hugging Face repository
 
-*title: News Summarization Text To Speech App
 
-*emoji:📊
+
+* title: News Summarization Text To Speech App
+
+* emoji:📊
 
 * sdk: streamlit
 
