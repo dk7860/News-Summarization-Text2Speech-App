@@ -6,14 +6,14 @@ Develop a web-based application that extracts key details from multiple news art
 A web-based application that extracts key details from multiple news articles related to a given company, performs sentiment analysis, conducts a comparative analysis, and generates a text-to-speech (TTS) output in Hindi. The tool should allow users to input a company name and receive a structured sentiment report along with an audio output.
 
 # Tech Stack:
-Frontend: Streamlit
-Backend: FastAPIs
-NLP Models: Hugging Face transformers (Sentiment Analysis)
-Text-to-Speech: gTTS (Hindi Speech)
+* Frontend: Streamlit
+* Backend: FastAPIs
+* NLP Models: Hugging Face transformers (Sentiment Analysis)
+* Text-to-Speech: gTTS (Hindi Speech)
 
 # Prerequisites
-Python 3.8+
-pip
+* Python 3.8+
+* pip
 
 # Clone the Repository
 Clone this repository locally. In a terminal, run the following command:
@@ -37,21 +37,17 @@ The application is deployed on Hugging Face Spaces for public use. You can acces
 * Select Python - Streamlit
 * Push code to the Hugging Face repository
 
-title: News Summarization Text To Speech App
+*title: News Summarization Text To Speech App
 
-emoji:📊
+*emoji:📊
 
-colorFrom: purple
+* sdk: streamlit
 
-colorTo: green
+* sdk_version: 1.43.2
 
-sdk: streamlit
+* app_file: app.py
 
-sdk_version: 1.43.2
+* pinned: false
 
-app_file: app.py
-
-pinned: false
-
-short_description: Generates a text-to-speech (TTS) output in Hindi
+* short_description: Generates a text-to-speech (TTS) output in Hindi
   
